@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 //import NavTest from "./components/NavTest";
 import Header from "./components/Header";
- import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";
 // import Skills from "./components/Skills";
 //  import Education from "./components/Education";
 import Projects from "./components/Projects";
@@ -15,9 +15,10 @@ import { circleBounce } from 'tsparticles/Utils';
 import Particles from "react-particles-js";
 
 function App() {
+
   return (
     <>
-    {/* <Particles
+      {/* <Particles
     className="particles-canvas"
     params={{
       particles:{
@@ -38,72 +39,72 @@ function App() {
         }
       }
     }}/> */}
-    <Particles
-      
-      params={{
-        fpsLimit: 60,
-        particles: {
-          number: {
-            value:20,
-            density: {
+      <Particles
+
+        params={{
+          fpsLimit: 60,
+          particles: {
+            number: {
+              value: 20,
+              density: {
+                enable: true,
+                value_area: 800
+              }
+            },
+            color: {
+              value: "#00fff5",
+              animation: {
+                enable: false,
+                speed: 10,
+                sync: true
+              }
+            },
+            links: {
+              color: "#341fff",
+              enable: false
+            },
+            shape: {
+              type: ["circle", "square"]
+            },
+            opacity: {
+              value: 1
+            },
+            size: {
+              value: 5,
+              random: {
+                enable: true,
+                minimumValue: 10
+              }
+            },
+            rotate: {
+              value: 0,
+              direction: "clockwise",
+              animation: {
+                speed: 5,
+                enable: true
+              }
+            },
+            move: {
               enable: true,
-              value_area: 800
-            }
-          },
-          color: {
-            value: "#00fff5",
-            animation: {
-              enable: true,
-              speed: 10,
-              sync: true
-            }
-          },
-          links: {
-            color: "#ffb997",
-            enable: false
-          },
-          shape: {
-            type: ["circle", "square"]
-          },
-          opacity: {
-            value: 1
-          },
-          size: {
-            value: 5,
-            random: {
-              enable: true,
-              minimumValue: 10
-            }
-          },
-          rotate: {
-            value: 0,
-            direction: "clockwise",
-            animation: {
               speed: 5,
-              enable: true
+              direction: "none",
+              out_mode: "out"
             }
           },
-          move: {
-            enable: true,
-            speed: 5,
-            direction: "none",
-            out_mode: "out"
+
+          detectRetina: true,
+          background: {
+            color: "#fff"
           }
-        },
-   
-        detectRetina: true,
-        background: {
-          color: "#17163e"
-        }
-}}/>
-     
+        }} />
+
       <Navbar />
-       <Header />
+      <Header />
       <AboutMe />
       <Projects />
       <Experience />
       <ContactMe />
-      <Footer /> 
+      <Footer />
 
     </>
   )
