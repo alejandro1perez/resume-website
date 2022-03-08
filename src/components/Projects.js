@@ -108,41 +108,39 @@ const Projects = () => {
         <div id="projects" className="projects-wrapper">
             <div className="container-fluid">
                 <h1 className="text-uppercase text-center py-5">Projects</h1>
-                <div className="image-box-wrapper row justify-content-center">
-                    <div className="col-lg-4 col-md-6 col-sm-8 col-11 mx-5 projects-row">
-
-
-                        <div className="projects-image-box justify-content-center col " onClick={openPopupboxVPT}>
-
-                            <img className="rounded-3 projects-image" src={VirtualTrainer} alt="Virtual Personal Trainer" />
-
-                            <div className="rounded-3 overflow"></div>
-                            <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                <div className="image-box-wrapper row">
+                    <div className="col mx-auto projects-row">
+                        <div className="text-center projects-image-box" onClick={openPopupboxVPT}>
+                            <img className="rounded-3 mx-auto d-block projects-image" src={VirtualTrainer} alt="Virtual Personal Trainer" />
+                            <div className="rounded-3 text-center overflow">
+                                <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                            </div>
                         </div>
 
-                        <div className="projects-image-box justify-content-center col" onClick={openPopupboxVPT2}>
-                            <img className="rounded-3 projects-image" src={DuckHunt} alt="3d Duck Hunt Game" />
-                            <div className="rounded-3 overflow"></div>
-                            <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                        <div className="text-center projects-image-box" onClick={openPopupboxVPT2}>
+                            <img className="rounded-3 mx-auto d-block projects-image" src={DuckHunt} alt="3d Duck Hunt Game" />
+                            <div className="rounded-3 text-center overflow">
+                                <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                            </div>
 
                         </div>
-
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-8 col-11 mx-auto projects-row">
-                        <div className="text-center">
-                            <div className="projects-image-box justify-content-center col" onClick={openPopupboxVPT3}>
-                                <img className="rounded-3 projects-image" src={JavaColor} alt="Java Color Manipulation" />
-                                <div className="rounded-3 overflow"></div>
-                                <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                    <div className="col mx-auto projects-row">
 
-                            </div>
-                            <div className="projects-image-box justify-content-center col" onClick={openPopupboxVPT4}>
-                                <img className="rounded-3 projects-image" src={python} alt="First Person Shooter Game" />
-                                <div className="rounded-3 overflow"></div>
+                        <div className="text-center projects-image-box" onClick={openPopupboxVPT3}>
+                            <img className="rounded-3 mx-auto d-block projects-image" src={JavaColor} alt="Java Color Manipulation" />
+                            <div className="rounded-3 text-center overflow">
                                 <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
-
                             </div>
                         </div>
+                        <div className="text-center projects-image-box" onClick={openPopupboxVPT4}>
+                            <img className="rounded-3 mx-auto d-block projects-image" src={python} alt="First Person Shooter Game" />
+                            <div className="rounded-3 text-center overflow">
+                                <FontAwesomeIcon className="projects-icon" icon={faLocationArrow} />
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>

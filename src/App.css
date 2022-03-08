@@ -79,6 +79,7 @@ transition: background-color 0.25s ease-in-out;
 .navbar.colorChange{
   /* background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% )!important; */
   background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
  
 }   
 /*----------Nav Buttons-----------*/
@@ -408,7 +409,7 @@ color:#1d1d1f;
 
 /******************************** Projects *************************************/
 .projects-wrapper{
-    background-color: #eee; 
+    background-color: #393e46; 
   /* background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  */
   
   /* background-image: linear-gradient(to top, #fff 0%, #0c3483 100%, #0c3483 100%, #0c3483 100%);  */
@@ -417,17 +418,18 @@ color:#1d1d1f;
   
 }
 .projects-wrapper h1{
-  color:#1d1d1d;
+  color:#fff;
   font-size: 2rem;
 }
 .projects-image{
   width:30rem;
   height:16.5rem;
+  margin: 1rem;
 
 }
 .projects-image-box{
-  position:relative;
-  margin:1rem;
+  position: relative;
+  width: 100%;
 }
 
 
@@ -439,7 +441,11 @@ color:#1d1d1f;
   width:30rem;
   height:16.5rem;
   top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   cursor:pointer;
+  margin: auto;
 
 }
 .projects-image-box:hover .overflow {
@@ -451,8 +457,8 @@ color:#1d1d1f;
 .projects-icon {
   position:absolute;
   opacity:0;
-  top:115px;
-  right: 6.8rem;
+  top:50%;
+  left: 50%;
   color:#00fff5;
   font-size:1.5rem;
 
@@ -505,8 +511,7 @@ color:#1d1d1f;
   }
   .projects-icon{
     position: absolute;
-    top:55px;
-    right:5.8rem;
+    
     
   }
   .projects-row{
