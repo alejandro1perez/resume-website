@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/resume-website/static/css/main.848b308f.chunk.css",
-    "main.js": "/resume-website/static/js/main.a2d84f0b.chunk.js",
-    "main.js.map": "/resume-website/static/js/main.a2d84f0b.chunk.js.map",
+    "main.js": "/resume-website/static/js/main.6fd0e9e3.chunk.js",
+    "main.js.map": "/resume-website/static/js/main.6fd0e9e3.chunk.js.map",
     "runtime-main.js": "/resume-website/static/js/runtime-main.d2333e6e.js",
     "runtime-main.js.map": "/resume-website/static/js/runtime-main.d2333e6e.js.map",
     "static/css/2.d81e308a.chunk.css": "/resume-website/static/css/2.d81e308a.chunk.css",
@@ -14,7 +14,6 @@
     "static/css/2.d81e308a.chunk.css.map": "/resume-website/static/css/2.d81e308a.chunk.css.map",
     "static/css/main.848b308f.chunk.css.map": "/resume-website/static/css/main.848b308f.chunk.css.map",
     "static/js/2.26bccd20.chunk.js.LICENSE.txt": "/resume-website/static/js/2.26bccd20.chunk.js.LICENSE.txt",
-    "static/media/Alejandro Perez Resume.40168ef6.pdf": "/resume-website/static/media/Alejandro Perez Resume.40168ef6.pdf",
     "static/media/CS204FinalProjectDocumentation.e5822af6.pdf": "/resume-website/static/media/CS204FinalProjectDocumentation.e5822af6.pdf",
     "static/media/CS_Seminar_Barry_Poster.15ed0e96.pdf": "/resume-website/static/media/CS_Seminar_Barry_Poster.15ed0e96.pdf",
     "static/media/Duck Hunt Documentation.12c7bb10.pdf": "/resume-website/static/media/Duck Hunt Documentation.12c7bb10.pdf",
@@ -23,6 +22,7 @@
     "static/media/duckhuntfps.a0959f76.png": "/resume-website/static/media/duckhuntfps.a0959f76.png",
     "static/media/picture1.65c0349d.jpeg": "/resume-website/static/media/picture1.65c0349d.jpeg",
     "static/media/python.8f38aa02.png": "/resume-website/static/media/python.8f38aa02.png",
+    "static/media/resume-alejandroperez.156272be.pdf": "/resume-website/static/media/resume-alejandroperez.156272be.pdf",
     "static/media/vg3.8a7460ce.png": "/resume-website/static/media/vg3.8a7460ce.png"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.d81e308a.chunk.css",
     "static/js/2.26bccd20.chunk.js",
     "static/css/main.848b308f.chunk.css",
-    "static/js/main.a2d84f0b.chunk.js"
+    "static/js/main.6fd0e9e3.chunk.js"
   ]
 }
